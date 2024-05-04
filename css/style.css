@@ -128,6 +128,8 @@
 }
 .client-section_one{
 	border-top: 1px solid #CCCCCC;
+    /* after add as per client*/
+    padding: 10px !important;
 }
 .action-box-bg{
 	background-image: url(../images/homepage-1/bg/bg-02.jpg);
@@ -1944,17 +1946,17 @@ textarea.form-control{
 }
 .video-container {
     /* position: relative; */
-    overflow: hidden;
+    /* overflow: hidden;
     width: 100%;
-    padding-top: 56.25%;
+    padding-top: 56.25%; */
 }
 .video-container video {
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; */
 }
 .sticky {
 position: fixed;
@@ -1969,4 +1971,27 @@ box-shadow: 0 15px 38px rgba(0, 0, 0, 0.1);
 .sticky + .content {
 padding-top: 60px;
 }
+
+.custom-dropdown select {
+    width: 100%;
+    padding: 6px 0; /* Adjust padding as needed */
+    border: none;
+    border-bottom: 1px solid rgba(7, 19, 35, .08);
+    background: none; /* Remove background */
+    -webkit-appearance: none; /* Remove default arrow for Safari */
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path d="M5 6L0 0h10z" fill="%23303f9f"/></svg>'); /* Add custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 8px center; /* Position arrow */
+    background-size: 10px auto; /* Size arrow */
+    color: #495057; /* Text color */
+}
+
+.custom-dropdown select:focus {
+    outline: 0;
+    box-shadow: none; /* Remove focus box shadow */
+}
+
+
 
