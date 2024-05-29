@@ -2356,15 +2356,15 @@ body {
 }
 
 .pbmit-title-bar-wrapper.custom-bg-2 {
-    background-image: url(../images/about-us.JPG);
+    background-image: url(../images/about-us.jpg);
 }
 
 .pbmit-title-bar-wrapper.custom-bg-3 {
-	background-image: url(../images/project-header.JPG);
+	background-image: url(../images/project-header.jpg);
 }
 
 .pbmit-title-bar-wrapper.custom-bg-4 {
-	background-image: url(../images/matar-project-04.JPG);
+	background-image: url(../images/matar-project-04.jpg);
 }
 
 .pbmit-title-bar-wrapper:before{
